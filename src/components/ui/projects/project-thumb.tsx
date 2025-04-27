@@ -41,7 +41,15 @@ export default function  ProjectThumb({ project, index }: ProjectThumbProps) {
         viewport={animation ? { once: true, amount: 0.1 } : {}}
       >
         <div className="videoContainer flex gap-2 relative group rounded-xl overflow-hidden duration-500 hover:scale-[0.97]">
-          <Video src={project.video} />
+          {project.video && <Video src={project.video} />}
+          {project.img && (
+            <img
+              className="rounded-xl object-cover w-[300px] h-[200px] lg:w-[400px] lg:h-[250px] duration-500"
+              src={project.img}
+              alt={project.title}
+            />
+          )}
+          
           <div className="transition-all absolute flex flex-wrap w-full h-full justify-center items-center content-center gap-2 opacity-0 group-hover:opacity-100 group-hover:dark:bg-[#f5f5f570] group-hover:bg-[#17171770] duration-500 rounded-xl">
             {project.stack
               ? project.stack.map((item: string) => (
@@ -103,7 +111,7 @@ export default function  ProjectThumb({ project, index }: ProjectThumbProps) {
           {project.description}
         </motion.p>
         <div className="flex flex-col gap-2">
-          <motion.a
+         {project.preview && <motion.a
             initial={animation ? { opacity: 0 } : { opacity: 1, y: 0 }}
             whileInView={
               animation
@@ -124,7 +132,7 @@ export default function  ProjectThumb({ project, index }: ProjectThumbProps) {
               <AppWindow />
               Live Preview
             </Button>
-          </motion.a>
+          </motion.a>}
           <motion.div
             initial={animation ? { opacity: 0 } : { opacity: 1, y: 0 }}
             whileInView={

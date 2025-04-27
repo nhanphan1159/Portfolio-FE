@@ -1,10 +1,13 @@
 import {
+  AntdesignOriginal,
+  AxiosPlainWordmark,
   Css3Original,
   ExpressOriginal,
   Html5Original,
   JavascriptOriginal,
   JestPlain,
   MongodbOriginal,
+  NextjsOriginal,
   NodejsOriginal,
   PostgresqlOriginal,
   PrismaOriginal,
@@ -104,5 +107,22 @@ export function getDevIcons(tech: string) {
           <JestPlain size="30" />
         </SkillIcon>
       );
+    case "nextjs":
+      return (
+        <SkillIcon name="Next.js" id="nextjs" className="bg-[#00000050]">
+          <NextjsOriginal size="30" />
+        </SkillIcon>
+      );
+      case 'axios':
+        return (
+          <SkillIcon name="Axios" id="axios" className="bg-[#5a29e4]">
+            <AxiosPlainWordmark size="30" />
+            </SkillIcon>)
+      case"ant-design":
+        return (
+          <SkillIcon name="Ant Design" id="ant-design" className="bg-[#f00]">
+            <AntdesignOriginal size="30" />
+          </SkillIcon>
+        )
   }
 }
