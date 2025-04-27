@@ -23,8 +23,7 @@ export const projectData = [
     type: "Bank Application",
     description:
       "Banking is viewing articles on finance and policy along with viewing fund information, stocks that can be bought and sold.",
-    video:
-      "https://res.cloudinary.com/dxvkpbvgr/video/upload/v1728971552/chatroom_gmqjie.mp4",
+      img: "/src/assets/credit.png",
     stack: ["typescript", "css", "react", "node", "express", "mongodb", "vite"],
   },
   {
