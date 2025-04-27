@@ -2,13 +2,11 @@ import { GitPullRequestArrow } from "lucide-react";
 import {
   GithubOriginal,
   GitOriginal,
-  JestPlain,
   NextjsOriginal,
   NpmOriginalWordmark,
   TailwindcssOriginal,
   VitejsOriginal,
   VscodeOriginal,
-  VuejsLine,
   VuejsOriginal,
 } from "devicons-react";
 

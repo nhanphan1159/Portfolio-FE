@@ -6,7 +6,6 @@ import { HeroBg } from "./hero-bg";
 import { useEffect, useState } from "react";
 import { HeroBgStatic } from "./hero-bg-static";
 import useTheme from "../../../hooks/useTheme";
-import FrontEnd from '../skills/front-end';
 
 export default function Hero() {
   const [width, setWidth] = useState<number>(window.innerWidth);
