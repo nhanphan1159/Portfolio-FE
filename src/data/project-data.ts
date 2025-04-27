@@ -5,7 +5,7 @@ export const projectData = [
     type: "Chat Bot AI Application",
     description:"Optimize your productivity by scheduling with multiple people and getting tailored time recommendations based on your schedule.",
     img:
-     "/src/assets/Geniai.png",
+     "/img/Geniai.png",
     stack: [
       "typescript",
       "react",
@@ -23,7 +23,7 @@ export const projectData = [
     type: "Bank Application",
     description:
       "Banking is viewing articles on finance and policy along with viewing fund information, stocks that can be bought and sold.",
-      img: "/src/assets/credit.png",
+      img: "/img/Credit.png",
     stack: ["typescript", "css", "react", "node", "express", "mongodb", "vite"],
   },
   {
@@ -32,7 +32,7 @@ export const projectData = [
     type: "Credit Application",
     description:
 "Credit is a platform that allows users to borrow money, display loan information on landing page and manage user information using cms.",
-    img: "/src/assets/credit.png",
+    img: "/img/Credit.png",
     stack: ["typescript", "css", "react", "vite", "axios", "ant-design"],
   },
   {
@@ -41,7 +41,7 @@ export const projectData = [
     type: "HR management application",
     description:
      "View employee information on off, remote, late, leave early, and manage work.",
-    img: "/src/assets/HR.png",
+    img: "/img/HR.png",
     stack: [
       "typescript",
       "css",
