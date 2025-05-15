@@ -32,12 +32,12 @@ export default function Footer() {
           >
             <Mail strokeWidth={2.5} size={28} />
           </li>
-          <Tooltip id="leetcode" float>
+{/*           <Tooltip id="leetcode" float>
             LeetCode
           </Tooltip>
           <a href="https://leetcode.com/u/guskirb/" data-tooltip-id="leetcode">
             <li className="shadow-md leetCodeLogo hover:scale-[1.1] transition-all" />
-          </a>
+          </a> */}
         </ul>
       </div>
       <div className="flex flex-col items-center">
